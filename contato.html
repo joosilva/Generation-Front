@@ -1,34 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
+
 <body>
     
-    <ul>
-        <li><a href = "index.html">Sobre</a></li>
-        <li><a href = "contato.html">Contato</a></li>
+</body>
+</html>
+
+<body class="background">
+
+    <ul class="menu container">
+        <li><a href="index.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
     </ul>
 
-    <h2>Envie uma mensagem:</h2>
+    <h2 class="central">Envie uma mensagem:</h2>
 
-    <form>
-        <label for = "nome">Nome:</label>
-        <input type = "text" id = "nome">
-        <label for = "email">Email:</label>
-        <input type = "email" id = "email">
-        <label for = "mensagem">Mensagem:</label>
-        <input type = "text" id = "mensagem">
-        <button>Enviar</button>
-    </form>
+    <div class="container">
+        <form class="formulario">
+            <div class="itens-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+            </div>
+            <div class="itens-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+            </div>
+            <div class="itens-form">
+                <label for="mensagem">Mensagem:</label>
+                <input type="text" id="mensagem">
+            </div>
+            <div class="itens-form">
+                <button>Enviar</button>
+            </div>
+        </form>
+    </div>
 
-    <h2>Siga-me</h2>
-    <a href="https://linkedin.com/in/joosilva" target = "_blank">LinkedIn</a>
-    <a href="https://github.com/joosilva" target = "_blank">GitHub</a>
+    <h2 class="central">Siga-me</h2>
 
+    <hr>
+    <footer class="footer">
+
+        <div class="container siga-me">
+
+            <div>
+                <a href="https://linkedin.com/in/joosilva" target="_blank"><img class="img-contato"
+                        src="assets/img/linkedin-logo.png" alt="LinkedIn de João Victor"></a>
+                <a href="https://linkedin.com/in/joosilva" target="_blank">LinkedIn</a>
+            </div>
+            <div>
+                <a href="https://github.com/joosilva" target="_blank"><img class="img-contato"
+                        src="assets/img/github-logo.png" alt="GitHub de João Victor"></a>
+                <a href="https://github.com/joosilva" target="_blank">GitHub</a>
+            </div>
+
+        </div>
+
+        <p class="central">
+            Todos os direitos reservados a João Victor Mendes Silva &copy
+        </p>
+
+    </footer>
 
 </body>
+
 </html>

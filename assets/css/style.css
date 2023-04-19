@@ -1,0 +1,85 @@
+.background{
+    background-color: #c0d1ff;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{  
+ color: rgb(94, 94, 94); 
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu li a{
+    text-align: center;
+    padding: 15px;
+}
+
+.central{
+    text-align: center;
+}
+
+.paragrafo{
+    text-align: center;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pad-border{
+    padding: 20px;
+}
+
+.img-borda-redonda{
+    border-radius: 100%;
+}
+
+.wh{
+    width: 350px;
+    height: 350px;
+}
+
+/*Estilização index.html*/
+.video{
+    padding-bottom: 50px;
+}
+
+/*Estilização contato.html*/
+.formulario{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.itens-form{
+    padding: 5px;
+}
+
+.img-contato{
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+}
+
+.siga-me div {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*Estilização footer*/
+.footer{
+    background-color: gray;
+}
