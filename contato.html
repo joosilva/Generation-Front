@@ -12,11 +12,6 @@
 
 </head>
 
-<body>
-    
-</body>
-</html>
-
 <body class="background">
 
     <ul class="menu container">
@@ -29,19 +24,23 @@
     <div class="container">
         <form class="formulario">
             <div class="itens-form">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" onkeyup="validarNome()">
+                <div id="validacaoNome"></div>
             </div>
             <div class="itens-form">
-                <label for="email">Email:</label>
-                <input type="email" id="email">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" onkeyup="validarEmail()">
+                <div id="validacaoEmail"></div>
             </div>
             <div class="itens-form">
-                <label for="mensagem">Mensagem:</label>
-                <input type="text" id="mensagem">
+                <label for="mensagem">Mensagem:</label><br>
+                <input type="text" id="mensagem" onkeyup="validarMensagem()">
             </div>
+            <div id="validacaoMensagem"></div>
+
             <div class="itens-form">
-                <button>Enviar</button>
+                <button onclick="enviar()">Enviar</button>
             </div>
         </form>
     </div>
@@ -71,6 +70,8 @@
         </p>
 
     </footer>
+
+    <script src="assets/js/script.js"></script>
 
 </body>
 
